@@ -36,8 +36,9 @@ cp .zshrc ~/
 
 ${pckgman} install -y snapd
 
-snapd install -y spotify
-snapd install -y discord
-snapd install -y teams
+snap install -y spotify
+snap install -y discord
+snap install -y teams
+snap install -y lotion
 
 systemctl enable lightdm
