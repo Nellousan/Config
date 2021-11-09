@@ -21,6 +21,8 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 sh -c "$(curl -fsSL https://get.docker.com)"
 ${pckgman} install -y gimp
 ${pckgman} install -y htop
+${pckgman} install -y bat
+${pckgman} install -y thunar
 
 ${pckgman} install -y i3
 ${pckgman} install -y i3blocks
